@@ -44,7 +44,7 @@ class Graph extends React.Component {
             <Spin size="large" />
         </div>) :  (error) ? (<h3 style={{color:"red",margin:"25px"}}>{error}</h3>) :
             (<div  style={{color:'black'}}> 
-                <h1 className="pad" style={{fontSize:"2em", letterSpacing:3}}>Global Situation {global_record.active}</h1>
+                <h1 className="pad" style={{fontSize:"2em", letterSpacing:3}}>Global Situation </h1>
 
 
                         <div className="site-statistic-demo-card">
